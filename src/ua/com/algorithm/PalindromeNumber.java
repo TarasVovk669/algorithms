@@ -16,4 +16,12 @@ public class PalindromeNumber {
         }
         return true;
     }
+
+    //reverse target int and equals
+    public boolean isPalindromeV2(int x) {
+        if (x < 0) {
+            return false;
+        }
+        return ReverseInteger.reverse(x) == x;
+    }
 }
