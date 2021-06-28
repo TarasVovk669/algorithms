@@ -3,7 +3,7 @@ package ua.com.algorithm;
 //https://leetcode.com/problems/reverse-integer/
 public class ReverseInteger {
 
-    public static int reverse(int x) {
+    public int reverse(int x) {
         var result = 0;
 
         while (0 != x) {
